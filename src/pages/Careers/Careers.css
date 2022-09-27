@@ -1,0 +1,297 @@
+.Main {
+    opacity: 1;
+}
+
+.Main::selection {
+    background: #7733ff36!important;
+}
+
+.CareersSectionContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CareersInnerContent {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.CareersContainer {
+    margin: 0px auto;
+}
+
+.LeftBlock {
+    box-sizing: border-box;
+    margin-bottom: 64px;
+}
+
+.CareersTitle {
+    color: rgb(20, 20, 20);
+    letter-spacing: 0.005em;
+    margin-bottom: 16px;
+}
+
+.CareersSubTitle {
+    color: rgb(119, 118, 122);
+    margin-bottom: 56px;
+}
+
+.CareersLinkButton {
+    font-family: GerberaRegular, "Segoe UI", "Droid Sans", Roboto, Helvetica, Arial, sans-serif;
+    border: none;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    pointer-events: auto;
+    color: rgb(255, 255, 255);
+    background: rgb(118, 51, 255);
+    box-shadow: none;
+    visibility: visible;
+}
+
+.CareersLinkButton:link, .CareersLinkButton:visited, .CareersLinkButton:focus {
+    color: rgb(255, 255, 255);
+}
+
+.CareersLinkButton:link {
+    text-decoration: none;
+    outline: none;
+}
+
+.CareersLinkButton:hover, .CareersLinkButton:active, .CareersLinkButton:focus {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24)), rgb(118, 51, 255);
+}
+
+.RightBlock {
+    box-sizing: border-box;
+}
+
+.RightBlock > img {
+    max-width: 100%;
+}
+
+.CareersRow {
+    display: flex;
+}
+
+.BenefitsBlock {
+    position: relative;
+}
+
+.BenefitsContainer {
+    margin: 0px auto;
+}
+
+.BenefitsRow {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .CareersSectionContainer {
+        max-width: 432px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .CareersInnerContent {
+        height: 48px; 
+    }
+
+    .CareersContainer {
+        padding: 0px 24px 96px;
+        max-width: 432px;
+    }
+
+    .CareersTitle {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .CareersSubTitle {
+        font-size: 17px;
+        line-height: 24px;  
+    }
+
+    .CareersLinkButton {
+        width: auto;
+        font-size: 17px;
+        line-height: 24px;
+        border-radius: 56px;
+        padding: 16px 32px; 
+    }
+
+    .CareersRow {
+        flex-direction: column;
+    }
+
+    .BenefitsBlock {
+        padding-bottom: 48px;
+    }
+
+    .BenefitsContainer {
+        padding: 0px 24px;
+        max-width: 432px;
+    }
+
+    .BenefitsRow {
+        row-gap: 48px;
+    }
+    
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .CareersRow {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 497px) {
+    /* .CareersRow {
+        flex-direction: column;
+    } */
+  
+    
+}
+
+
+@media only screen and (min-width: 648px) {
+    .CareersSectionContainer {
+        max-width: 640px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .CareersInnerContent {
+        height: 64px; 
+    }
+
+    .CareersContainer {
+        padding: 0px 64px 128px;
+        max-width: 640px;
+    }
+
+    .CareersTitle {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .CareersSubTitle {
+        font-size: 20px;
+        line-height: 32px;  
+    }
+
+    .CareersLinkButton {
+        font-size: 20px;
+        line-height: 32px;
+        border-radius: 72px;
+        padding: 20px 40px;
+        width: auto;
+    }
+
+    /* .CareersRow {
+        flex-direction: column;
+    } */
+
+    .BenefitsBlock {
+        padding-bottom: 64px;
+    }
+
+    .BenefitsContainer {
+        padding: 0px 64px;
+        max-width: 640px;
+    }
+
+    .BenefitsRow {
+        row-gap: 64px;
+    }
+    
+}
+
+@media only screen and (min-width: 785px) {
+   
+   
+}
+
+
+@media only screen and (min-width: 1352px) {
+    .CareersSectionContainer {
+        max-width: 1280px;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .CareersInnerContent {
+        height: 96px; 
+    }
+
+    .CareersContainer {
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 0px 160px 160px;
+        max-width: 1280px;
+    }
+
+    .LeftBlock {
+        padding-right: 40px;
+        width: 50%;
+        margin-bottom: 0px;
+    }
+
+    .RightBlock {
+        padding-left: 40px;
+        width: 50%;
+    }
+
+    .CareersRow {
+       display: flex !important;
+    }
+
+    .BenefitsContainer {
+        padding: 0px 160px;
+        max-width: 1280px;
+    }
+
+    .BenefitsRow {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px 80px;
+    }
+
+    
+
+   
+}
+
+@media only screen and (min-width: 1616px) {
+
+   
+}
+
+@media only screen and (min-width: 1920px) {
+    .CareersLinkButton {
+        width: auto;
+        font-size: 20px;
+        line-height: 32px;
+        border-radius: 72px;
+        padding: 20px 40px;
+    }
+}

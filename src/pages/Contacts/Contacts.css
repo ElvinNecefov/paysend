@@ -1,0 +1,403 @@
+.Main {
+    opacity: 1;
+}
+
+.Main::selection {
+    background: #7733ff36!important;
+}
+
+.SectionContacts {
+    position: relative;
+}
+
+.SectionContacts:before {
+    background-image: radial-gradient(50% 50% at 50% 0,rgba(243,242,245,.64) 0,rgba(243,242,245,0) 100%);
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+
+.ContactsContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContactsCol {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContactsTitle {
+    margin-bottom: 16px;
+}
+
+.ContactsCol > p {
+    margin-top: 0;
+}
+
+.ContactsButtonLink {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #7633ff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgb(85 51 255 / 24%);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: GerberaRegular,Segoe UI,Droid Sans,Roboto,Helvetica,Arial,sans-serif;
+    outline: none;
+    overflow: hidden;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+  
+a:link {
+    text-decoration: none;
+  }
+  
+a:link {
+    outline: none;
+}
+
+.ContactsButtonLink:link, .ContactsButtonLink:visited {
+    color: #fff;
+}
+
+.ContactsButtonLink:link {
+    text-decoration: none;
+    outline: none;
+}
+
+.ContactsButtonLink:active, .ContactsButtonLink:focus, .ContactsButtonLink:hover  {
+    background-color: #9864ff;
+    outline: none;
+}
+
+.SectionOfficesCol {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 620px;
+}
+
+.OfficelParagraph {
+    margin-top: 0;
+}
+
+.list-type {
+    margin-top: 64px;
+}
+
+.bg-icon-96_london {
+    background-image: url('../../assets/images/london.svg');
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 96px;
+    min-width: 96px;
+    width: 96px;
+
+}
+
+ins {
+    text-decoration: none;
+}
+
+.maincopy {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.smallcopy {
+    color: #77767a;
+}
+
+.bg-icon-96_edinburgh {
+    background-image: url("../../assets/images/edinburgh.svg");
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 96px;
+    min-width: 96px;
+    width: 96px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .SectionContacts {
+        margin-top: 48px;
+   }
+
+   .SectionContacts:before {
+        height: 96px;
+    }
+
+    .ContactsContainer {
+        max-width: 432px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .ContactsRow {
+        padding-bottom: 96px;
+    }
+
+    .ContactsCol {
+        max-width: 620px;
+    }
+
+    .ContactsTitle {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .ContactsCol > p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ContactsButton {
+        margin-top: 32px;
+    }
+
+    .ContactsButtonLink {
+        border-radius: 24px;
+        padding: 12px 32px;
+        width: auto;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .SectionOffices {
+        margin-top: 96px;
+    }
+
+    .SectionOfficesCol {
+        max-width: 620px;
+    }
+
+    .OfficelParagraph {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .list-type > li:nth-of-type(2) {
+        margin-top: 48px;
+    }
+
+    .list-type > li:nth-of-type(3) {
+        margin-top: 48px;
+    }
+
+    .maincopy {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .smallcopy {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+   
+       
+    
+
+    
+}
+
+@media only screen and (min-width: 497px) {
+   
+    .ContactsRow {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .ContactsCol {
+        max-width: 620px;
+    }
+
+    .SectionOfficesRow {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .SectionOfficesCol {
+        max-width: 620px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 648px) {
+    .SectionContacts {
+        margin-top: 64px;
+    }
+
+    .SectionContacts:before {
+        height: 128px;
+    }
+
+    .ContactsContainer {
+        max-width: none;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .ContactsRow {
+        padding-bottom: 128px;
+        background-color: transparent;
+    }
+
+    .ContactsCol {
+        max-width: 620px;
+    }
+
+    .ContactsTitle {
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .ContactsCol > p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .ContactsButton {
+        margin-top: 48px;
+    }
+
+    .ContactsButtonLink {
+        border-radius: 32px;
+        padding: 16px 48px;
+        width: auto;
+        cursor: pointer;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .SectionOffices {
+        margin-top: 128px;
+    }
+
+    .SectionOfficesRow {
+        background-color: transparent;
+    }
+
+    .SectionOfficesCol {
+        max-width: 620px;
+    }
+
+    .OfficelParagraph {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .list-type > li:nth-of-type(2) {
+        margin-top: 64px;
+    }
+
+    .list-type > li:nth-of-type(3) {
+        margin-top: 64px;
+    }
+
+    .maincopy {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .smallcopy {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    
+
+    
+}
+
+@media only screen and (min-width: 785px) {
+   
+    .ContactsContainer {
+        max-width: 640px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ContactsRow {
+        background-color: transparent;
+    }
+
+    .SectionOfficesRow {
+        background-color: transparent;
+    }
+}
+
+
+@media only screen and (min-width: 1352px) {
+    .SectionContacts {
+        margin-top: 96px;
+    }
+
+    .ContactsContainer {
+        max-width: none;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .ContactsRow {
+        background-color: transparent;
+    }
+
+    .SectionOfficesRow {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 1616px) {
+
+    .ContactsContainer {
+        max-width: 1280px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ContactsRow {
+        background-color: transparent;
+    }
+
+    .SectionOfficesRow {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+     
+}

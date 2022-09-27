@@ -1,0 +1,81 @@
+.BenefitsCol {
+    max-width: 420px;
+}
+
+.BenefitsCol > img {
+    max-width: 48px;
+    max-height: 48px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.BenefitsTitle {
+    color: rgb(20, 20, 20);
+    margin-bottom: 16px;
+}
+
+.BenefitsSubTitle {
+    color: rgb(119, 118, 122);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .BenefitsTitle {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .BenefitsSubTitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 497px) {
+    
+  
+    
+}
+
+
+@media only screen and (min-width: 648px) {
+    .BenefitsTitle {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .BenefitsSubTitle {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    
+}
+
+@media only screen and (min-width: 785px) {
+   
+   
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    
+}
+
+
+@media only screen and (min-width: 1352px) {
+    .BenefitsCol {
+        max-width: 420px;
+    }
+
+}
+
+@media only screen and (min-width: 1616px) {
+
+   
+}
+
+@media only screen and (min-width: 1920px) {
+   
+}

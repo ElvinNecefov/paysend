@@ -1,0 +1,307 @@
+.OverlayNavigation {
+    background-color: rgb(255, 255, 255);
+    inset: 72px 0px 0px;
+    overflow-y: auto;
+    padding-bottom: 104px;
+    padding-top: 24px;
+    position: fixed;
+    z-index: 7;
+}
+
+.OverlayTabs {
+    margin: 0px auto 8px;
+}
+
+.OverlayMenu {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    overflow: auto hidden;
+    padding: 0px 24px 16px;
+}
+
+.OverlayMenu > li a {
+    cursor: pointer;
+    display: block;
+    white-space: nowrap;
+}
+
+.OverlayMenu > li > a:hover, .OverlayMenu > li > a:active {
+    background-color: rgb(243, 242, 245);
+}
+
+.CorrespondNav {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.TabsContent ul > li a {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.TabsContent ul > li a > img {
+    border: none;
+    margin-right: 16px;
+    min-width: 24px;
+    vertical-align: top;
+}
+
+.SubMenuTitleNav {
+    color: rgb(119, 118, 122);
+    cursor: initial;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 24px;
+}
+
+
+.a:link, .a:visited {
+    color: inherit;
+}
+
+.CorrespondNav2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.FixedPanel {
+    height: auto;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+}
+
+.AuthMenuNav {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.FixedList {
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* buna baxarsan eger islemese  */
+.FixedList > li > a {
+    box-shadow: rgb(20 20 20 / 12%) 0px 0px 1px, rgb(20 20 20 / 4%) 0px 0px 8px, rgb(20 20 20 / 4%) 0px 8px 8px;
+}
+
+
+
+.AuthMenuNav > li {
+    white-space: nowrap;
+}
+
+.StylishButton {
+    background-color: rgb(118, 51, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 32px;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    line-height: 24px;
+    outline: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.StylishButton > span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .OverlayTabs {
+        padding-bottom: 16px;
+        padding-top: 16px;
+        max-width: 480px;
+    }
+
+    .OverlayMenu {
+        font-size: 17px;
+        height: 40px;
+        line-height: 24px;
+    }
+
+    .OverlayMenu > li + li {
+        margin-left: 16px;
+    }
+
+    .OverlayMenu > li a {
+        border-radius: 32px;
+        padding: 8px 16px; 
+    }
+
+    .CorrespondNav {
+        max-width: 480px;
+    }
+
+    .TabsContent ul {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .TabsContent ul > li a {
+        padding: 24px;
+    }
+
+    .CorrespondNav2 {
+        max-width: 480px;
+    }
+
+    .FixedPanel {
+        bottom: 80px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .FixedList {
+        font-size: 17px;
+        line-height: 24px;
+        max-width: 432px;
+    }
+
+    .FixedList > li {
+        height: 56px;
+        width: 50%;
+    }
+
+    /* buna baxarsan islemese  */
+    .FixedList > li > a {
+        border-radius: 56px;
+        padding: 16px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 497px) {
+   
+    
+}
+
+
+@media only screen and (min-width: 648px) {
+    .OverlayNavigation {
+        padding-bottom: 200px;
+    }
+
+    .OverlayTabs {
+        max-width: 640px;
+        padding: 24px 64px;
+    }
+
+    .OverlayMenu {
+        font-size: 20px;
+        height: 56px;
+        line-height: 32px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .OverlayMenu > li + li {
+        margin-left: 24px;
+    }
+
+    .OverlayMenu > li a {
+        border-radius: 56px;
+        padding: 12px 24px; 
+    }
+
+    .CorrespondNav {
+        max-width: 688px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .TabsContent ul {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .TabsContent ul > li a {
+        padding: 32px 24px;
+    }
+
+    .SubMenuTitleNav {
+        padding-bottom: 36px;
+        padding-top: 36px;
+    }
+
+    .CorrespondNav2 {
+        max-width: 688px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .FixedPanel {
+        bottom: 136px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .FixedList {
+        font-size: 20px;
+        line-height: 32px;
+        max-width: none;
+    }
+
+    .FixedList > li {
+        height: 72px;
+        width: auto;
+    }
+
+    /* buna baxarsan islemese  */
+    .FixedList > li > a {
+        border-radius: 72px;
+        padding: 20px 40px;
+        
+    }
+    
+   
+    
+}
+
+@media only screen and (min-width: 785px) {
+   
+   
+}
+
+
+@media only screen and (min-width: 1352px) {
+    .OverlayNavigation {
+        display: none;
+    }
+
+    .SubMenuTitleNav {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1616px) {
+
+}
+
+@media only screen and (min-width: 1920px) {
+     
+}
